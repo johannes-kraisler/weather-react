@@ -1,13 +1,17 @@
+import React from "react";
 import "./App.css";
 
-function App() {
+import Header from "./Header.js";
+import Weather from "./Weather.js";
+import Footer from "./Footer.js";
+import "./Responsive.css";
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello world</h1>
-      </header>
+    <div className="container">
+      <Header />
+      <Weather />
+      <Footer />
     </div>
   );
 }
-
-export default App;

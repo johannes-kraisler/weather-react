@@ -1,38 +1,109 @@
-.App {
+:root {
+  --default-color: #ff7e67;
+}
+.wrapper {
+  /*background-image: url("pictures/pic3.jpg");*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Indie Flower", cursive;
+  margin-top: 40px;
+}
+form {
+  font-size: large;
+}
+h2,
+p,
+li {
+  color: #392f2f;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: -40px;
+  color: #3a7563;
+}
+h2 {
+  padding: 20px;
+  margin: 0;
+  font-size: 24px;
+  background-color: #e9f5f3;
+}
+p {
+  font-size: 24px;
+}
+hr {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+footer {
+  text-align: center;
+  margin: 30px;
+}
+footer i {
+  font-size: 30px;
+  color: var(--default-color);
+}
+.container {
+  width: 600px;
+  display: block;
+  margin: auto;
+}
+.wrapper {
+  border: 1px solid #392f2f;
+  border-radius: 80px;
+  box-shadow: 1px 1px 15px;
+
+  background-color: #ffffff;
+}
+.header {
+  margin: 40px;
+}
+.inner-info {
+  margin: 40px;
+}
+.right-section {
+  text-align: right;
+  position: relative;
+  right: 38px;
+}
+.icon-main {
+  position: relative;
+  right: -45px;
+}
+.units {
+  text-align: right;
+  position: relative;
+  top: -30px;
+  right: 40px;
+  margin: 0;
+  padding: 0;
+}
+.weather-days {
+  margin-top: 10px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search,
+.my-city {
+  background-color: var(--default-color);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li:first-letter {
+  text-transform: capitalize;
+}
+#main-city:first-letter {
+  text-transform: capitalize;
+}
+#forecast {
+  margin-top: 15px;
+  margin-bottom: -20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+strong {
+  text-shadow: 0.5px 1px black;
 }
