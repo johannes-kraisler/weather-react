@@ -3,7 +3,12 @@ import React from "react";
 export default function Footer() {
   return (
     <footer>
-      <p>Open-source project by Anastasiia</p>
+      <a
+        href="https://github.com/johannes-kraisler/weather-react"
+        target="blank"
+      >
+        <p>Open-source project by Anastasiia</p>
+      </a>
 
       <a
         href="https://github.com/johannes-kraisler/green-weather-app"
