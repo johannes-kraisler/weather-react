@@ -5,7 +5,8 @@ export default function Footer() {
     <footer>
       <a
         href="https://github.com/johannes-kraisler/weather-react"
-        target="blank"
+        target="_blank"
+        rel="noreferrer"
       >
         <p>Open-source project by Anastasiia</p>
       </a>
@@ -13,6 +14,7 @@ export default function Footer() {
       <a
         href="https://github.com/johannes-kraisler/green-weather-app"
         target="_blank"
+        rel="noreferrer"
       >
         <i FontAwesomeIcon icon="fa-brands fa-github">
           {" "}
@@ -22,6 +24,7 @@ export default function Footer() {
       <a
         href="https://www.linkedin.com/in/anastasiia-lemish-b85523184/"
         target="_blank"
+        rel="noreferrer"
       >
         <i class="fa-brands fa-linkedin"></i>
       </a>
