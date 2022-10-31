@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { github } from "@fortawesome/free-solid-svg-icons";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 export default function Footer() {
   return (
@@ -18,7 +18,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={fa-brands fa-github} />
+        <FontAwesomeIcon icon={"fa-brands fa-github"} />
       </a>
 
       <a
@@ -26,7 +26,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        <i class="fa-brands fa-linkedin"></i>
+        <FontAwesomeIcon icon={"fa-brands fa-github"} />
       </a>
     </footer>
   );

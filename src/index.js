@@ -4,6 +4,8 @@ import "./index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
