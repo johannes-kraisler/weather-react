@@ -1,0 +1,60 @@
+h2,
+p,
+li {
+  color: #392f2f;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 50px;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: -70px;
+  color: #0ba1bf;
+  text-shadow: var(--default-shadow);
+}
+h2 {
+  padding: 20px;
+  margin: 0;
+  font-size: 24px;
+  background-color: #9be5f7;
+}
+p {
+  font-size: 24px;
+}
+hr {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+}
+.wrapper {
+  font-family: "Indie Flower", cursive;
+  margin-top: 40px;
+}
+.units {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+.inner-info {
+  margin: 40px;
+}
+
+.right-section {
+  text-align: right;
+  position: relative;
+  right: 38px;
+}
+.icon-main {
+  position: relative;
+  right: -45px;
+}
+.weather-days {
+  margin-top: 10px;
+  text-align: center;
+}

@@ -1,0 +1,17 @@
+form {
+  font-size: larger;
+}
+
+.header {
+  margin-top: 40px;
+}
+
+i.fa {
+  font-size: 40px;
+  margin: 7px;
+  color: aliceblue;
+}
+i.fa:hover {
+  transition: all 0.1s ease-in-out;
+  color: var(--default-color);
+}

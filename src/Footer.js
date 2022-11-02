@@ -1,24 +1,17 @@
 import React from "react";
+
+import {} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 export default function Footer() {
   return (
     <footer>
       <a
-        href="https://github.com/johannes-kraisler/weather-react"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <p>Open-source project by Anastasiia</p>
-      </a>
-
-      <a
         href="https://github.com/johannes-kraisler/green-weather-app"
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={"fa-brands fa-github"} />
+        <i className="fa fa-github " aria-hidden="true"></i>
       </a>
 
       <a
@@ -26,7 +19,7 @@ export default function Footer() {
         target="_blank"
         rel="noreferrer"
       >
-        <FontAwesomeIcon icon={"fa-brands fa-github"} />
+        <i className="fa fa-linkedin " aria-hidden="true"></i>
       </a>
     </footer>
   );

@@ -1,5 +1,8 @@
 import React from "react";
 import "./Responsive.css";
+import "./Weather.css";
+import "./Header.css";
+import "./Footer.css";
 
 export default function Weather() {
   let WeatherData = {
@@ -17,12 +20,16 @@ export default function Weather() {
     <div className="wrapper">
       <h1>{WeatherData.city}</h1>
       <section className="units">
-        <button className="btn btn-success">C°</button>
-        <button className="btn btn-success">F°</button>
+        <div>
+          <button className="btn btn-primary ">C°</button>
+        </div>
+        <div>
+          <button className="btn btn-primary ">F</button>
+        </div>
       </section>
       <hr />
 
-      <h2>{WeatherData.date}</h2>
+      <h2 className="text-center">{WeatherData.date}</h2>
       <hr />
       <div className="inner-info">
         <div className="row">
