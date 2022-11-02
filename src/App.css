@@ -10,10 +10,6 @@
   background-color: #f9faff;
 }
 
-.weather-days {
-  margin-top: 10px;
-  text-align: center;
-}
 .search,
 .my-city {
   background-color: var(--default-color);

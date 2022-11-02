@@ -1,10 +1,12 @@
-import React from "react";
+import React /*{ useState }*/ from "react";
 import "./Responsive.css";
 import "./Weather.css";
 import "./Header.css";
-import "./Footer.css";
+import "./Weather.css";
+import axios from "axios";
 
 export default function Weather() {
+  /* const [temperature, setTemperature] = useState();*/
   let WeatherData = {
     city: "Madrid",
     date: "Thu, August 25, 20:39",
@@ -15,6 +17,14 @@ export default function Weather() {
     maxTemp: 22,
     minTemp: 12,
   };
+  function handleResponse(response) {
+    console.log(response.data.weather.temp);
+  }
+
+  let key = "b5d468da4868eefa0bc957f375b485fb";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${WeatherData.city}&appid=${key}&units=metric`;
+  axios.get(apiUrl).then(handleResponse);
+  console.log(apiUrl);
 
   return (
     <div className="wrapper">
