@@ -1,6 +1,6 @@
 import React from "react";
-
-import {} from "@fortawesome/free-solid-svg-icons";
+import "./Footer.css";
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 
 export default function Footer() {
   return (
