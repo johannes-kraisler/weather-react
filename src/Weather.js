@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import DateTime from "./DateTime.js";
 import Loader from "./Loader.js";
 import "./Responsive.css";
 import "./Weather.css";
@@ -10,6 +11,7 @@ export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
 
   function handleResponse(response) {
+    console.log(response.data);
     setWeatherData({
       ready: true,
       temperature: Math.round(response.data.main.temp),
@@ -34,7 +36,9 @@ export default function Weather(props) {
           </div>
         </section>
         <hr />
-        <h2 className="text-center">4 Nov, 2022</h2>
+        <h2 className="text-center">
+          <DateTime />
+        </h2>
         <hr />
         <div className="inner-info">
           <div className="row">
